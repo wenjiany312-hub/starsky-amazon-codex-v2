@@ -1,0 +1,6 @@
+__pycache__/
+*.pem
+*私有*/
+*.sqlite3
+issued/
+content-keys/
