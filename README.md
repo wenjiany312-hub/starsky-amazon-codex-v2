@@ -6,7 +6,7 @@
 
 ## 当前发行与会员权益
 
-当前发行版本：**3.0.3 · 基础版**。仅按年度销售，授权期限为 **365 天（1 年）**，包含对应版本档在服务期内发布的更新。首次安装领取一次本机授权，有效会员后续更新无需逐版换 Key；到期后已安装内容保留，取得后续更新需续期。
+当前发行版本：**3.0.4 · 基础版**。仅按年度销售，授权期限为 **365 天（1 年）**，包含对应版本档在服务期内发布的更新。首次安装领取一次本机授权，有效会员后续更新无需逐版换 Key；到期后已安装内容保留，取得后续更新需续期。
 
 本次付费正式版只有 [Codex 正式版](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2) 和 [Claude Desktop 正式版](https://github.com/wenjiany312-hub/starsky-amazon-claude-desktop-v2)。旗舰版尚未发布，不包含在本次基础版发行中；其专属能力以实际发布版本为准。
 
@@ -20,16 +20,16 @@
 
 基础版不含旗舰专属的 S5 第三部分「官方 API + 智能 AI 广告」。任务需要的第三方服务和真实数据由用户自行配置。
 
-## 下载 3.0.3
+## 下载 3.0.4
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.3/Starsky-Codex-3.0.3-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.3/Starsky-Codex-3.0.3-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.4/Starsky-Codex-3.0.4-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.4/Starsky-Codex-3.0.4-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
-请选择名称为 `Starsky-Codex-3.0.3-平台.zip` 的发行资产。GitHub 自动生成的 `Source code.zip` / `tar.gz` 只有公开仓文档，不能作为安装包。
+请选择名称为 `Starsky-Codex-3.0.4-平台.zip` 的发行资产。GitHub 自动生成的 `Source code.zip` / `tar.gz` 只有公开仓文档，不能作为安装包。
 
 ## 首次安装
 
