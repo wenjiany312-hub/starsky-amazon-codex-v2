@@ -16,9 +16,5 @@
       "sha256": "11be0633fdae248367ee2e1194bf7ed6631413cf8f1a66e73fc3bf4c8db71dad",
       "bytes": 5478123
     }
-  },
-  "verification": {
-    "cross_device_hardware": "pending_user_testing",
-    "planned_hardware": "Windows A/B Codex; Mac Claude Desktop"
   }
 }
