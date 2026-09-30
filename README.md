@@ -55,9 +55,12 @@
 
 **一机一码，不支持更换设备，多台电脑需分别购买；购买后不接受退款。** 购买前请确认产品、版本档、系统环境与所绑定的电脑。
 
-个人微信：扫码添加，备注「购买插件」（只咨询备注「咨询星空」），并注明 Codex 或 Claude Desktop。
-
-<p align="center"><img src="docs/assets/个人微信.png" alt="坚哥个人微信：购买插件或咨询星空" width="420"></p>
+<table>
+  <tr>
+    <td width="180" align="center"><a href="docs/assets/个人微信.png"><img src="docs/assets/个人微信.png" alt="坚哥个人微信：购买插件或咨询星空" width="180"></a></td>
+    <td valign="middle">个人微信：扫码添加。<br><br>备注「购买插件」<br>（只咨询备注「咨询星空」），<br>并注明 Codex 或 Claude Desktop。</td>
+  </tr>
+</table>
 
 <p align="center"><img src="docs/assets/公众号_跨境者说干货.png" alt="微信搜索：跨境者说干货，联系坚哥申请正式版授权" width="640"></p>
 
