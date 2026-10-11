@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "host": "codex",
+  "product": "starsky-codex-v2",
+  "market": "starskycodex",
+  "plugin": "starsky-amazon-agent",
+  "license_prefix": "SKYC2",
+  "repo": "wenjiany312-hub/starsky-amazon-codex-v2",
+  "member_branch": "codex/member-updates",
+  "app_dir": ".starsky-codex",
+  "label": "Starsky Codex",
+  "git_marketplace": {
+    "url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2.git",
+    "ref": "codex-marketplace",
+    "refs": {
+      "basic": "codex-marketplace",
+      "flagship": "codex-marketplace-flagship"
+    }
+  }
+}

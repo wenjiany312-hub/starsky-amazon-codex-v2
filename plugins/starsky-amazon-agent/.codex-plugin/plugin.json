@@ -1,0 +1,34 @@
+{
+  "name": "starsky-amazon-agent",
+  "version": "3.0.6+codex-flagship.20261011.2",
+  "description": "星空亚马逊 Agent 系统 V2.1：S1: 选品板块、S2: 文案板块、S3: 视觉板块、S4: 广告板块、S5: 运营板块，一键启用。",
+  "author": {
+    "name": "坚哥"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "amazon",
+    "codex",
+    "starsky",
+    "listing",
+    "ads"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "星空亚马逊 Agent",
+    "shortDescription": "S1–S5 实战操作系统：先讲清问题，再投喂，再出报告。",
+    "longDescription": "把 S1: 选品板块、S2: 文案板块、S3: 视觉板块、S4: 广告板块、S5: 运营板块封装成 Codex 插件。启用后直接说「启动星空」，第一条回复必须是五块选择卡，不要先读文件、不要找价值卡或价格卡。每个板块收尾弹交接卡（三步走 + 可复制口令）。不替用户上传广告或改后台。",
+    "developerName": "坚哥 · 星空的跨境圈子",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "启动星空",
+      "启动星空 S1: 选品板块。这个品能不能做？",
+      "启动星空 S4: 广告板块。广告怎么搭，不要直接上传。",
+      "启动星空 S5，打开店铺运营看板并检查已配置的数据来源。"
+    ]
+  }
+}
