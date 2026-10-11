@@ -1,0 +1,22 @@
+{
+  "product": "starsky-codex-v2",
+  "tier": "flagship",
+  "latest_preview": "3.0.6+codex-flagship.20261011.4",
+  "stable_release": "3.0.6+codex-flagship.20261011.4",
+  "version": "3.0.6",
+  "engine_version": "0.2.0-alpha.17",
+  "updated": "2026-10-11",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.6-codex-flagship.20261011.4",
+  "platforms": {
+    "windows": {
+      "file": "Starsky-Codex-Flagship-3.0.6-20261011.4-windows.zip",
+      "sha256": "18834a91bce47efd9f8a0f83427185d251f8599ed9e32f025d70825e7d924b5e",
+      "bytes": 11553902
+    },
+    "macos": {
+      "file": "Starsky-Codex-Flagship-3.0.6-20261011.4-macos.zip",
+      "sha256": "363999237c55c0b9c53e0f5d96b17ec4a756bf37b6e2fbf1bfa5d54fccc2ab3d",
+      "bytes": 11720431
+    }
+  }
+}
