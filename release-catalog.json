@@ -8,13 +8,13 @@
   "platforms": {
     "windows": {
       "file": "Starsky-Codex-3.0.7-windows.zip",
-      "sha256": "ca0f676bbabd782b5b87b340525ab5959febd898b50e9c8063193f003578a42d",
-      "bytes": 5736396
+      "sha256": "3869edc42bcc5abd489c750a2a1abaf97c0bc04bf565f54f4cfb8fb4d84aa7de",
+      "bytes": 5736297
     },
     "macos": {
       "file": "Starsky-Codex-3.0.7-macos.zip",
-      "sha256": "8246d58f0f67492436ba62689391e726a8aa13c3cf697ee8a86dc78492545590",
-      "bytes": 5902923
+      "sha256": "ab75576c7fd1ec5c2903e598b799161074eca3b1cac56cb47f0c9f1c5bf84de2",
+      "bytes": 5902823
     }
   },
   "version": "3.0.7",
