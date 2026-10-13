@@ -1,23 +1,23 @@
 {
   "product": "starsky-codex-v2",
   "tier": "flagship",
-  "latest_preview": "3.0.10",
-  "stable_release": "3.0.10",
-  "version": "3.0.10",
-  "plugin_version": "3.0.10+codex-flagship.20261012.1",
+  "latest_preview": "3.0.11",
+  "stable_release": "3.0.11",
+  "version": "3.0.11",
+  "plugin_version": "3.0.11+codex-flagship.20261013.1",
   "engine_version": "0.2.0-alpha.20",
   "updated": "2026-10-13",
-  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.10-codex-flagship",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.11-codex-flagship",
   "platforms": {
     "windows": {
-      "file": "Starsky-Codex-Flagship-3.0.10-windows.zip",
-      "sha256": "a222e3075908730a89c5dcdb2efb4bddf6ed83c9048a17f05ad527343f2137ea",
-      "bytes": 11841112
+      "file": "Starsky-Codex-Flagship-3.0.11-windows.zip",
+      "sha256": "67e91a300a689ae7122a7fb16d9e387d1e30d22df48f8aea3a677cb655a2fa8c",
+      "bytes": 11972313
     },
     "macos": {
-      "file": "Starsky-Codex-Flagship-3.0.10-macos.zip",
-      "sha256": "dd9cf7ee720efe914ec28e79d5b08c7bcd42939d5d5d0265a9670829c3e4e9a7",
-      "bytes": 12007675
+      "file": "Starsky-Codex-Flagship-3.0.11-macos.zip",
+      "sha256": "f06c6c125cec0ea41c24bcf4733e0fa89fb137f5ac23baae7842565309c5bc1c",
+      "bytes": 12138877
     }
   }
 }

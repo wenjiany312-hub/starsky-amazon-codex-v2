@@ -4,9 +4,13 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
+## 本次旗舰更新 · 桌面启动与连接检测
+
+Windows 安装或升级后自动生成彩色启动、停止图标；双击启动直接打开综合看板，不弹黑窗口。首次点击准备引擎，后续跟随插件版本，保留已有数据。看板自动检查知识库与 MCP，目录连通与实际调用分开显示。运营版仍为 **3.0.9**，Claude 本次不变。
+
 ## 本次更新 · Codex 模型与执行效率
 
-运营版 **3.0.9** 与旗舰版 **3.0.10** 同步优化：保持用户当前主模型，按当前步骤加载规则，表格先用脚本整理，必要时才把狭窄辅助任务交给 Luna。导航、步骤卡和交接提示使用同一份模型规则，清楚区分主模型与任务建议。
+运营版 **3.0.9** 与旗舰版 **3.0.11** 同步优化：保持用户当前主模型，按当前步骤加载规则，表格先用脚本整理，必要时才把狭窄辅助任务交给 Luna。导航、步骤卡和交接提示使用同一份模型规则，清楚区分主模型与任务建议。
 
 S1 的产品透视、图片、成本与利润反推、报告深度和业务核验继续保留。优化的原理、使用方式及单案例实测范围见 [本次更新说明](docs/Codex执行效率与模型提示_20261012.md)。本次仅更新 Codex；Claude 的模型策略与发布保持不变。
 
@@ -47,20 +51,20 @@ S1 的产品透视、图片、成本与利润反推、报告深度和业务核�
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.10**，插件 **3.0.10+codex-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
+Codex 旗舰发行 **3.0.11**，插件 **3.0.11+codex-flagship.20261013.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10-codex-flagship/Starsky-Codex-Flagship-3.0.10-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10-codex-flagship/Starsky-Codex-Flagship-3.0.10-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.11-codex-flagship/Starsky-Codex-Flagship-3.0.11-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.11-codex-flagship/Starsky-Codex-Flagship-3.0.11-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.10-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.11-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
 ### 三步开始
 
-1. 装好插件，对 AI 说：**“打开广告终端”**，按接入向导一步一步来（向导里有《申请与使用指南》，带截图）。
+1. 装好插件，Windows 双击桌面 **“启动星空广告终端”**；Mac 对 AI 说 **“打开广告终端”**，按接入向导一步一步来（向导里有《申请与使用指南》，带截图）。
 2. 向导里先勾选你要接入的站点；每一步都先连亚马逊测一遍，**通过才保存**；只读，不会改你的店铺。
 3. 全部打勾后开启每日定时，第二天早上收到第一份简报。
 
