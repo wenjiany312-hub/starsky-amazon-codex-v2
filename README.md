@@ -4,11 +4,11 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · S1 产品开发决策透视
+## 本次更新 · Codex 模型与执行效率
 
-运营版 **3.0.7** 与旗舰版 **3.0.8** 同步升级 S1：组件图片与货源逐项对应，按目标利润反推售价，缺失费用保留为空；厂家前置清单与拿样建议绑定实际市场和成本证据。三份报告使用同源资料同步 Markdown/HTML，历史正文、备注与关键词保留，导航与排版同步改善。
+运营版 **3.0.9** 与旗舰版 **3.0.10** 同步优化：保持用户当前主模型，按当前步骤加载规则，表格先用脚本整理，必要时才把狭窄辅助任务交给 Luna。导航、步骤卡和交接提示使用同一份模型规则，清楚区分主模型与任务建议。
 
-仅做 S1 时不自动进入 S2；交付、拿样建议与采购授权分别判断。详见 [本次更新说明](docs/S1产品开发决策透视与模型说明_20261012.md)。 Codex 主力推荐 GPT‑6.1 Sol，按任务使用低、中或更高推理；Luna 处理明确重复任务，Astra 用于难点复核。API 费用与订阅用量分别说明，不作固定省量或质量等同承诺。
+S1 的产品透视、图片、成本与利润反推、报告深度和业务核验继续保留。优化的原理、使用方式及单案例实测范围见 [本次更新说明](docs/Codex执行效率与模型提示_20261012.md)。本次仅更新 Codex；Claude 的模型策略与发布保持不变。
 
 ## 当前发行与会员权益
 
@@ -47,14 +47,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.8**，插件 **3.0.8+codex-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
+Codex 旗舰发行 **3.0.10**，插件 **3.0.10+codex-flagship.20261012.1**，内含 **0.2.0-alpha.20** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.8-codex-flagship/Starsky-Codex-Flagship-3.0.8-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.8-codex-flagship/Starsky-Codex-Flagship-3.0.8-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10-codex-flagship/Starsky-Codex-Flagship-3.0.10-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10-codex-flagship/Starsky-Codex-Flagship-3.0.10-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.8-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.10-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -85,8 +85,8 @@ Codex 旗舰发行 **3.0.8**，插件 **3.0.8+codex-flagship.20261012.1**，内�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.7/Starsky-Codex-3.0.7-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.7/Starsky-Codex-3.0.7-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.9/Starsky-Codex-3.0.9-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.9/Starsky-Codex-3.0.9-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
