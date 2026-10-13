@@ -11,13 +11,13 @@
   "platforms": {
     "windows": {
       "file": "Starsky-Codex-Flagship-3.0.10-windows.zip",
-      "sha256": "466aeaf80723c29dfb145cf9249e6b768183efd0209deefa93d0166bef6ad14b",
-      "bytes": 11841075
+      "sha256": "a222e3075908730a89c5dcdb2efb4bddf6ed83c9048a17f05ad527343f2137ea",
+      "bytes": 11841112
     },
     "macos": {
       "file": "Starsky-Codex-Flagship-3.0.10-macos.zip",
-      "sha256": "93dad8b39c5398c94a1040d9f1ea216dc16746cb88899d449d3c088a32940a1f",
-      "bytes": 12007637
+      "sha256": "dd9cf7ee720efe914ec28e79d5b08c7bcd42939d5d5d0265a9670829c3e4e9a7",
+      "bytes": 12007675
     }
   }
 }
