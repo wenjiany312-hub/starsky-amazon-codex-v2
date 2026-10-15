@@ -4,7 +4,11 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · S1 选品报告修复（2026-10-14）
+## 本次更新 · R01 M1（2026-10-15）
+
+运营版 **3.0.13** 与旗舰版 **3.0.13**：S1–S5 精简步骤卡、同源导航与真实验收交接；保留业务门禁、宿主模型执行策略与广告终端。
+
+## 历史更新 · S1 选品报告修复（2026-10-14）
 
 运营版 **3.0.10** 与旗舰版 **3.0.12** 同步修复正式报告、导航和历史链接；市场、货源与知识库证据保留来源，实际利润与条件测算分开显示。保留各版原有模型策略及广告桌面能力。
 
@@ -57,14 +61,14 @@ S1 的产品透视、图片、成本与利润反推、报告深度和业务核�
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.12**，插件 **3.0.12+codex-flagship.20261014.1**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.13**，插件 **3.0.13+codex-flagship.20261015.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.12-codex-flagship/Starsky-Codex-Flagship-3.0.12-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.12-codex-flagship/Starsky-Codex-Flagship-3.0.12-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.13-codex-flagship/Starsky-Codex-Flagship-3.0.13-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.13-codex-flagship/Starsky-Codex-Flagship-3.0.13-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.12-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.13-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -95,8 +99,8 @@ Codex 旗舰发行 **3.0.12**，插件 **3.0.12+codex-flagship.20261014.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10/Starsky-Codex-3.0.10-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.10/Starsky-Codex-3.0.10-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.13/Starsky-Codex-3.0.13-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.13/Starsky-Codex-3.0.13-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
@@ -149,3 +153,9 @@ Codex 旗舰发行 **3.0.12**，插件 **3.0.12+codex-flagship.20261014.1**，�
 生成报告、候选文件或配置成功不等于完成上传、投放或平台验收。服务期更新权益不等于承诺规划功能已经上线。详细范围见 [数据与使用边界](docs/数据与使用边界.md)。
 
 亚马逊（Amazon）、Codex（OpenAI）、Claude（Anthropic）、Antigravity、ZCode、Sorftime、SIF、西柚、卖家精灵、领星、赛狐、1688 等名称和商标均归各自所有者所有，文中提及仅用于说明兼容与接入关系。「星空亚马逊 Agent」是第三方独立开发的工具，与上述平台及服务商没有隶属或授权关系，使用这些平台和服务时请遵守各自的服务条款和规则。后续规划不构成对具体功能、价格和上线时间的承诺。
+
+<!-- R01-E1-A-BEGIN -->
+## 新版步骤卡与导航
+
+每一步通过精简卡片查看结论、报告与下一步；模型由你在宿主中选择。完整用法见 [日常使用](docs/使用说明.md)。下载包附00使用说明、01口令速查、02MCP配置必读、03购买入口、04知识库总览和05S5接入指南。在对话说「打开星空使用说明」可找到安装后保留的说明。
+<!-- R01-E1-A-END -->
