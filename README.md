@@ -4,7 +4,13 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R04（2026-10-17）
+## 本次更新 · 安装与更新专项（2026-10-17）
+
+运营版 **3.0.19**，旗舰版 **3.0.19**：修复更新后首次启动的目录权限，并让三个知识库随版本更新。旧用户首次按提示允许；如提示生成专用权限档，选择一次并重开。后续在 Codex 设置 → 插件 → 市场点击 Upgrade。
+
+S1–S5 业务、已有配置和数据保留。Windows/Mac 两轮 CLI 沙盒及知识库实测已通过；原生 GUI 更新与正式安装交互待用户补验。
+
+## 历史更新 · R04（2026-10-17）
 
 运营版 **3.0.18**，旗舰版 **3.0.18**：S4七步与三处确认、真实SKU生成上传表；竞品候选按来源分类与打分，导航和使用说明同步。S5与广告终端原有行为保留。
 
@@ -81,14 +87,14 @@ S1 的产品透视、图片、成本与利润反推、报告深度和业务核�
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.18**，插件 **3.0.18+codex-flagship.20261017.1**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.19**，插件 **3.0.19+codex-flagship.20261017.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.18-codex-flagship/Starsky-Codex-Flagship-3.0.18-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.18-codex-flagship/Starsky-Codex-Flagship-3.0.18-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.19-codex-flagship/Starsky-Codex-Flagship-3.0.19-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.19-codex-flagship/Starsky-Codex-Flagship-3.0.19-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.18-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.19-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -119,8 +125,8 @@ Codex 旗舰发行 **3.0.18**，插件 **3.0.18+codex-flagship.20261017.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.18/Starsky-Codex-3.0.18-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.18/Starsky-Codex-3.0.18-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.19/Starsky-Codex-3.0.19-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.19/Starsky-Codex-3.0.19-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
