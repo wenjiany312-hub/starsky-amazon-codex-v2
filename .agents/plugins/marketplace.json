@@ -1,0 +1,20 @@
+{
+  "name": "starskycodex",
+  "interface": {
+    "displayName": "星空 Codex · 正式版"
+  },
+  "plugins": [
+    {
+      "name": "starsky-amazon-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/starsky-amazon-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "starsky-amazon-agent",
+  "version": "3.0.20+codex-flagship.20261017.1",
+  "description": "星空亚马逊 Agent：每天一份经营简报和广告调整建议，你确认才会改店铺；同时包含 S1 选品、S2 文案、S3 视觉、S4 广告、S5 运营全流程。",
+  "author": {
+    "name": "坚哥"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "amazon",
+    "codex",
+    "starsky",
+    "listing",
+    "ads"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "星空亚马逊 Agent",
+    "shortDescription": "每天早上一份经营简报，告诉你店铺昨天怎么样、今天该调什么；你点头，才改。",
+    "longDescription": "把 S1: 选品板块、S2: 文案板块、S3: 视觉板块、S4: 广告板块、S5: 运营板块封装成 Codex 插件。启用后直接说「启动星空」，从五块选择卡开始。每步用精简卡片查看结论、报告、模型提醒与下一步；验收通过后提供可复制的阶段交接口令。不替用户上传广告或改后台。",
+    "developerName": "坚哥 · 星空的跨境圈子",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "打开广告终端",
+      "今天经营怎么样",
+      "今天要调什么",
+      "启动星空"
+    ]
+  }
+}
