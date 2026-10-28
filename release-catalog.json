@@ -1,22 +1,22 @@
 {
   "product": "starsky-codex-v2",
   "tier": "basic",
-  "latest_preview": "3.0.28",
-  "stable_release": "3.0.28",
-  "updated": "2026-10-26",
-  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.28",
+  "latest_preview": "3.0.29",
+  "stable_release": "3.0.29",
+  "updated": "2026-10-27",
+  "release_url": "https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.29",
   "platforms": {
     "windows": {
-      "file": "Starsky-Codex-3.0.28-windows.zip",
-      "sha256": "aa1f321d30dea632478ef9f850359943873a1f5c28953e845ab68dc57245a33a",
-      "bytes": 6886304
+      "file": "Starsky-Codex-3.0.29-windows.zip",
+      "sha256": "3ff6c066cf917efc217bfc591627e5fa768ce3a4fa3623ff607e17f0c76e830c",
+      "bytes": 6890005
     },
     "macos": {
-      "file": "Starsky-Codex-3.0.28-macos.zip",
-      "sha256": "42d3abec329a9b9558edfede4d96889ea3212182fe33ee50d71f1092706665f1",
-      "bytes": 7052916
+      "file": "Starsky-Codex-3.0.29-macos.zip",
+      "sha256": "72fa377f7d30d6cba4d1fb32926e3e3fb7c4fd68f43160f94fcd0bb0776aa0b6",
+      "bytes": 7056613
     }
   },
-  "version": "3.0.28",
-  "plugin_version": "3.0.28+codex-basic.20261026.1"
+  "version": "3.0.29",
+  "plugin_version": "3.0.29+codex-basic.20261027.1"
 }
