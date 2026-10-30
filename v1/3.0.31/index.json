@@ -1,0 +1,11 @@
+{
+  "bytes": 17959,
+  "file": "grants.zip",
+  "generated_at": "2026-10-30T08:44:25.702873+00:00",
+  "key_id": "00642a41d333fc2dc6571b22e1b8859d",
+  "payload_sha256": "2b0429bd8d55256415b0fdc4cbe1b25be29b9256847ed1f3bda6802fd199c360",
+  "product": "starsky-codex-v2",
+  "schema": 1,
+  "sha256": "3dc8cb34472c6f2a7797ed3b015a788dee425e459e70bce6a5cdef2ec21fdf33",
+  "version": "3.0.31"
+}
