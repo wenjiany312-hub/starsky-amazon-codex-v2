@@ -4,20 +4,20 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R09.3（2026-10-31）
+## 本次更新 · R09.3.1（2026-10-31）
 
-运营版 **3.0.33**，旗舰版 **3.0.33**。
+运营版 **3.0.34**，旗舰版 **3.0.34**。
 
-- 使用说明：补充“只用优麦云能用旗舰版吗”，运营版 S5 的路线表注明旗舰广告终端已能用优麦云取数。运营版功能无改动。
-- 旗舰：广告终端正式接入优麦云，只填优麦云 MCP 密钥也能用。接入向导列出优麦云里的店铺和站点，勾选后每个“店铺 + 站点”单独出看板、简报和诊断，金额按站点币种，同一店铺自接与优麦云重复时会提示选一边为准；看板显示每个单元的同步时间、覆盖率和本月调用次数，打开页面不额外调用优麦云。
-- 旗舰：新增「多店审核台」（http://127.0.0.1:9001/review）：上方矩阵按店铺 × 站点显示红黄绿、可推和只观察的建议数，下方汇总所有单元的建议，可按店、站、动作筛选；勾选后生成一份按店 → 站分组的审核报告，整份只输入一次“确认推送”，逐个单元执行，不同店铺之间错开 2–5 分钟，可随时停止剩余单元。
-- 旗舰：每日简报顶部新增“全部单元汇总”（按币种合计，多币种时附约合人民币；每单元一行红黄绿、销售、订单、广告、利润、待审建议、数据新鲜度），飞书卡片附汇总表（最多 10 行）和多店审核台入口；可用 data/config/brief_units.json 选择包含 / 排除的单元和顺序。只用自接站点的用户简报不变。
-- 旗舰：优麦云单元的建议本版只作观察、不能一键推送——关键词改竞价、活动降预算的推送通道已就绪，等开发者在真实店铺验证通过后随版本开放；回执页新增“已人工核对”按钮，推送后没能自动确认的条目核对后才恢复这个单元的推送。广告终端新增“优麦云接入指引”（授权步骤与防关联注意事项）。
+- 热修：版本号与旗舰版同步，运营版功能无改动。
+- 旗舰：优麦云同步更稳——优麦云“广告活动列表”接口报错时，不再把整天的数据丢掉：投放、搜索词、推广商品照常入库，SP 花费按关键词 + 投放汇总，SB + SD 合计按优麦云店铺表现推算（标明是推算）；英国站实测 10/01–10/30 共 30 天，广告花费、订单数与官方逐日一致。
+- 旗舰：修复优麦云订单被每 60 秒的实时同步冲掉、看板上订单和销售额一直为空的问题；优麦云页签的同步状态不再一直显示“读取中”，表格排版更清楚。
+- 旗舰：自接站点和优麦云可以并存——同一个店铺 + 站点两边都开时（接入向导默认“两边都要”），各自独立取数，全店合计只算一份，推送走自接那边。优麦云店铺不再挤在顶部页签，进「优麦云 ERP」后点店铺查看，进入时默认看“昨日”（优麦云不提供当天广告数据）。多店审核台里自接店铺显示为“自接店铺”。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-10-31 | R09.3 | 3.0.33 / 3.0.33 | 旗舰广告终端接入优麦云多店多站：按店铺 + 站点看板、简报、诊断，新增多店审核台 |
 | 2026-10-30 | R09.2 | 3.0.32 / 3.0.32 | 安装包说明不再乱码，旗舰向导能正确接入优麦云 MCP |
 | 2026-10-29 | R09.1 | 3.0.31 / 3.0.31 | 旗舰看板页头 MCP 通道状态不再被覆盖 |
 | 2026-10-29 | R09 | 3.0.30 / 3.0.30 | S1 市场报告重写、站外讨论线索与验收/交接修复、S2 补充层与修订沿用、旗舰第一批真实推送护栏、MCP 通道点名、补货任务、简报退货与价格、产品诊断与回款面板 |
@@ -81,14 +81,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.33**，插件 **3.0.33+codex-flagship.20261031.1**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.34**，插件 **3.0.34+codex-flagship.20261031.2**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33-codex-flagship/Starsky-Codex-Flagship-3.0.33-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33-codex-flagship/Starsky-Codex-Flagship-3.0.33-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34-codex-flagship/Starsky-Codex-Flagship-3.0.34-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34-codex-flagship/Starsky-Codex-Flagship-3.0.34-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.33-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.34-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -119,8 +119,8 @@ Codex 旗舰发行 **3.0.33**，插件 **3.0.33+codex-flagship.20261031.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33/Starsky-Codex-3.0.33-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33/Starsky-Codex-3.0.33-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34/Starsky-Codex-3.0.34-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34/Starsky-Codex-3.0.34-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
