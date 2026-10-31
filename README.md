@@ -4,17 +4,21 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R09.2（2026-10-30）
+## 本次更新 · R09.3（2026-10-31）
 
-运营版 **3.0.32**，旗舰版 **3.0.32**。
+运营版 **3.0.33**，旗舰版 **3.0.33**。
 
-- 安装包说明：00-使用说明里的正式版文档（安装与授权、使用说明、会员更新说明等）改成网页打开，不再出现乱码；05-S5运营接入指南固定白底；使用说明里 S1 市场报告与站外线索、S2 竞品约 20 个即放行、S5 路线（领星 / 赛狐 / 优麦云）和旗舰终端的说明更新到当前版本。
-- 旗舰：接入向导连优麦云（以及赛狐）MCP 时，不再误报“连上了，但没有列出任何工具”——旧版把对方返回的中文按错误编码读取，整份工具清单被截断；现在能正确列出全部工具（优麦云实测 16 个），对方返回错误时直接显示原话。优麦云目前只做连通与状态显示，看板数据和一键推送仍需 Ads API / SP-API。
+- 使用说明：补充“只用优麦云能用旗舰版吗”，运营版 S5 的路线表注明旗舰广告终端已能用优麦云取数。运营版功能无改动。
+- 旗舰：广告终端正式接入优麦云，只填优麦云 MCP 密钥也能用。接入向导列出优麦云里的店铺和站点，勾选后每个“店铺 + 站点”单独出看板、简报和诊断，金额按站点币种，同一店铺自接与优麦云重复时会提示选一边为准；看板显示每个单元的同步时间、覆盖率和本月调用次数，打开页面不额外调用优麦云。
+- 旗舰：新增「多店审核台」（http://127.0.0.1:9001/review）：上方矩阵按店铺 × 站点显示红黄绿、可推和只观察的建议数，下方汇总所有单元的建议，可按店、站、动作筛选；勾选后生成一份按店 → 站分组的审核报告，整份只输入一次“确认推送”，逐个单元执行，不同店铺之间错开 2–5 分钟，可随时停止剩余单元。
+- 旗舰：每日简报顶部新增“全部单元汇总”（按币种合计，多币种时附约合人民币；每单元一行红黄绿、销售、订单、广告、利润、待审建议、数据新鲜度），飞书卡片附汇总表（最多 10 行）和多店审核台入口；可用 data/config/brief_units.json 选择包含 / 排除的单元和顺序。只用自接站点的用户简报不变。
+- 旗舰：优麦云单元的建议本版只作观察、不能一键推送——关键词改竞价、活动降预算的推送通道已就绪，等开发者在真实店铺验证通过后随版本开放；回执页新增“已人工核对”按钮，推送后没能自动确认的条目核对后才恢复这个单元的推送。广告终端新增“优麦云接入指引”（授权步骤与防关联注意事项）。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-10-30 | R09.2 | 3.0.32 / 3.0.32 | 安装包说明不再乱码，旗舰向导能正确接入优麦云 MCP |
 | 2026-10-29 | R09.1 | 3.0.31 / 3.0.31 | 旗舰看板页头 MCP 通道状态不再被覆盖 |
 | 2026-10-29 | R09 | 3.0.30 / 3.0.30 | S1 市场报告重写、站外讨论线索与验收/交接修复、S2 补充层与修订沿用、旗舰第一批真实推送护栏、MCP 通道点名、补货任务、简报退货与价格、产品诊断与回款面板 |
 | 2026-10-27 | R08.4 | 3.0.29 / 3.0.29 | 新用户安装：GitHub 连通预检与等待进度、依赖崩溃直接点名并给 VC++ 链接、重装只取更新 |
@@ -77,14 +81,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.32**，插件 **3.0.32+codex-flagship.20261030.1**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.33**，插件 **3.0.33+codex-flagship.20261031.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.32-codex-flagship/Starsky-Codex-Flagship-3.0.32-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.32-codex-flagship/Starsky-Codex-Flagship-3.0.32-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33-codex-flagship/Starsky-Codex-Flagship-3.0.33-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33-codex-flagship/Starsky-Codex-Flagship-3.0.33-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.32-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.33-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -115,8 +119,8 @@ Codex 旗舰发行 **3.0.32**，插件 **3.0.32+codex-flagship.20261030.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.32/Starsky-Codex-3.0.32-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.32/Starsky-Codex-3.0.32-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33/Starsky-Codex-3.0.33-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.33/Starsky-Codex-3.0.33-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
