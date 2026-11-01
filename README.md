@@ -4,19 +4,20 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R09.3.1（2026-10-31）
+## 本次更新 · R09.3.2（2026-11-01）
 
-运营版 **3.0.34**，旗舰版 **3.0.34**。
+运营版 **3.0.35**，旗舰版 **3.0.35**。
 
 - 热修：版本号与旗舰版同步，运营版功能无改动。
-- 旗舰：优麦云同步更稳——优麦云“广告活动列表”接口报错时，不再把整天的数据丢掉：投放、搜索词、推广商品照常入库，SP 花费按关键词 + 投放汇总，SB + SD 合计按优麦云店铺表现推算（标明是推算）；英国站实测 10/01–10/30 共 30 天，广告花费、订单数与官方逐日一致。
-- 旗舰：修复优麦云订单被每 60 秒的实时同步冲掉、看板上订单和销售额一直为空的问题；优麦云页签的同步状态不再一直显示“读取中”，表格排版更清楚。
-- 旗舰：自接站点和优麦云可以并存——同一个店铺 + 站点两边都开时（接入向导默认“两边都要”），各自独立取数，全店合计只算一份，推送走自接那边。优麦云店铺不再挤在顶部页签，进「优麦云 ERP」后点店铺查看，进入时默认看“昨日”（优麦云不提供当天广告数据）。多店审核台里自接店铺显示为“自接店铺”。
+- 旗舰：「优麦云 ERP」页签重做——顶部是连接状态，每个店铺一张卡片（近 30 天广告花费、店铺订单、销售额），下面三个页签：「能做什么」（哪些数据能读、哪些已同步到本机；哪些能调整、终端开放到哪一步；哪些终端不碰）、「数据浏览」（每日经营、广告活动、广告组、关键词、投放、搜索词、推广商品、库存，可翻页、可搜索，读本机缓存、不请求优麦云）、「同步状态」。
+- 旗舰：优麦云统计完一天的订单要几个小时，刚过零点拉到的是半成品。现在一天结束 8 小时后才当作最终数存下来，没到点的那天订单、销售额、利润在简报里写“待数据”（不再写成 0 或负利润），到点自动重拉。
+- 旗舰：优麦云“活动列表”接口报错时，SB + SD 花费按店铺总广告费推算出来，简报和看板按行加总时也算进去，当天广告花费与总数一致；库存的日均销量、可售天数、建议补货改用优麦云自带的日均销量（之前显示“待数据”）。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-10-31 | R09.3.1 | 3.0.34 / 3.0.34 | 优麦云同步不再因活动列表报错丢数据，订单不再被冲掉，自接与优麦云可并存 |
 | 2026-10-31 | R09.3 | 3.0.33 / 3.0.33 | 旗舰广告终端接入优麦云多店多站：按店铺 + 站点看板、简报、诊断，新增多店审核台 |
 | 2026-10-30 | R09.2 | 3.0.32 / 3.0.32 | 安装包说明不再乱码，旗舰向导能正确接入优麦云 MCP |
 | 2026-10-29 | R09.1 | 3.0.31 / 3.0.31 | 旗舰看板页头 MCP 通道状态不再被覆盖 |
@@ -81,14 +82,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.34**，插件 **3.0.34+codex-flagship.20261031.2**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.35**，插件 **3.0.35+codex-flagship.20261101.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34-codex-flagship/Starsky-Codex-Flagship-3.0.34-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34-codex-flagship/Starsky-Codex-Flagship-3.0.34-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35-codex-flagship/Starsky-Codex-Flagship-3.0.35-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35-codex-flagship/Starsky-Codex-Flagship-3.0.35-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.34-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.35-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -119,8 +120,8 @@ Codex 旗舰发行 **3.0.34**，插件 **3.0.34+codex-flagship.20261031.2**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34/Starsky-Codex-3.0.34-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.34/Starsky-Codex-3.0.34-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35/Starsky-Codex-3.0.35-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35/Starsky-Codex-3.0.35-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
