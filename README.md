@@ -4,19 +4,25 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R09.3.2（2026-11-01）
+## 本次更新 · R09.4（2026-11-01）
 
-运营版 **3.0.35**，旗舰版 **3.0.35**。
+运营版 **3.0.36**，旗舰版 **3.0.36**。
 
-- 热修：版本号与旗舰版同步，运营版功能无改动。
-- 旗舰：「优麦云 ERP」页签重做——顶部是连接状态，每个店铺一张卡片（近 30 天广告花费、店铺订单、销售额），下面三个页签：「能做什么」（哪些数据能读、哪些已同步到本机；哪些能调整、终端开放到哪一步；哪些终端不碰）、「数据浏览」（每日经营、广告活动、广告组、关键词、投放、搜索词、推广商品、库存，可翻页、可搜索，读本机缓存、不请求优麦云）、「同步状态」。
-- 旗舰：优麦云统计完一天的订单要几个小时，刚过零点拉到的是半成品。现在一天结束 8 小时后才当作最终数存下来，没到点的那天订单、销售额、利润在简报里写“待数据”（不再写成 0 或负利润），到点自动重拉。
-- 旗舰：优麦云“活动列表”接口报错时，SB + SD 花费按店铺总广告费推算出来，简报和看板按行加总时也算进去，当天广告花费与总数一致；库存的日均销量、可售天数、建议补货改用优麦云自带的日均销量（之前显示“待数据”）。
+- 版本号与旗舰版同步，运营版功能无改动。
+- 旗舰：多店铺、多站点——接了优麦云或领星，账号下每个店铺 + 站点都可以勾选成一个独立的经营单元，有自己的看板、简报、诊断和推送；ERP 拉回来的数据只在各自的「优麦云 ERP」「领星 ERP」页里，顶部导航只放你自接 API 的站点。同一个店铺在几处都接了，合计只算一份。
+- 旗舰：点进任何一个店铺 + 站点，先看到“中控”——销售、广告是否健康，需要处理的问题和建议；有建议一键进多店审核台（只看这个站点），你本人输入“确认推送”才执行。
+- 旗舰：产品线一览重做——每条产品线一句话结论（没货还在花钱、只花钱不出单、ACoS 超保本线、销售下滑、正常），近 7 天数字和前 7 天对比，要处理的排最前，有建议的卡片一键进审核台只看这条产品线；近 30 天没有花费也没有销售的产品线折叠起来，确定不卖了的可以点“不再卖了”移除（只记在本机，可随时恢复）。
+- 旗舰：「领星 ERP」页——按 8 个板块列出领星开放平台 429 个接口：能读什么、终端用到哪一步、能调整什么；数据浏览（每日、活动、广告组、关键词、搜索词、推广商品、库存）；回款与隐藏费用按领星店铺显示。
+- 旗舰：「优麦云 ERP」页——能读 / 能调整一目了然，可浏览本机数据；优麦云店铺的利润按你的成本表逐 SKU 计算；统计没完成的日子写“待数据”，不写成 0。
+- 旗舰：「全店经营总控」、简报的全部单元汇总、多店审核台都能勾选汇总哪些单元；总控所有站点统一用同一组日期；页头两层排版、导航居中、数据状态条折叠成一行。
+- 旗舰：你写给美国站 / 英国站的经营决定（停售、头程天数、补货观望等）同样适用于同站点的领星 / 优麦云单元；每个单元各自保留最重要的建议，不会被别的单元挤掉。
+- 本版合并了 3.0.33～3.0.35（旗舰 3.1.26～3.1.28）的全部内容，从 3.0.32 及以上版本直接升级即可。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-11-01 | R09.3.2 | 3.0.35 / 3.0.35 | 优麦云页签重做：能读什么、能调什么一目了然，可浏览本机数据；没统计完的日子写待数据 |
 | 2026-10-31 | R09.3.1 | 3.0.34 / 3.0.34 | 优麦云同步不再因活动列表报错丢数据，订单不再被冲掉，自接与优麦云可并存 |
 | 2026-10-31 | R09.3 | 3.0.33 / 3.0.33 | 旗舰广告终端接入优麦云多店多站：按店铺 + 站点看板、简报、诊断，新增多店审核台 |
 | 2026-10-30 | R09.2 | 3.0.32 / 3.0.32 | 安装包说明不再乱码，旗舰向导能正确接入优麦云 MCP |
@@ -82,14 +88,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.35**，插件 **3.0.35+codex-flagship.20261101.1**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.36**，插件 **3.0.36+codex-flagship.20261101.2**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35-codex-flagship/Starsky-Codex-Flagship-3.0.35-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35-codex-flagship/Starsky-Codex-Flagship-3.0.35-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.36-codex-flagship/Starsky-Codex-Flagship-3.0.36-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.36-codex-flagship/Starsky-Codex-Flagship-3.0.36-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.35-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.36-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -120,8 +126,8 @@ Codex 旗舰发行 **3.0.35**，插件 **3.0.35+codex-flagship.20261101.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35/Starsky-Codex-3.0.35-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.35/Starsky-Codex-3.0.35-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.36/Starsky-Codex-3.0.36-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.36/Starsky-Codex-3.0.36-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
