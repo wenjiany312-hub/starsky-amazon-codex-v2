@@ -4,23 +4,22 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R09.5（2026-11-01）
+## 本次更新 · R09.6（2026-11-02）
 
-运营版 **3.0.37**，旗舰版 **3.0.37**。
+运营版 **3.0.38**，旗舰版 **3.0.38**。
 
 - 版本号与旗舰版同步，运营版功能无改动。
-- 旗舰：优麦云推送开放——关键词改竞价、活动日预算（只降）已在真实店铺验证（优麦云操作日志 + 回读核对），在接入向导第 5 步勾选“允许推送到优麦云”后，审核报告里你本人输入“确认推送”的改动会写回广告。
-- 旗舰：领星单元的成本——你在领星网页端维护的采购价、头程（人民币）会同步过来，成本表没填的项用它补上，成本表填了的以成本表为准；领星页卡片列出“还要去领星补”的 SKU 和两边差得多的项。
-- 旗舰：领星 / 优麦云单元有访问量和转化率（领星用“产品表现”，和亚马逊官方业务报告同一周完全对上；优麦云要先在它那边同步业务报告，缺天时写待数据），产品诊断里的访问量下降、转化下滑、有访问不下单照常工作。
-- 旗舰：领星 / 优麦云单元的退货（近 30 天件数、原因、买家评论）进简报“退货”一节，FBA 入库货件（状态、发货 / 签收件数、在途件数）在数据浏览里看。
-- 旗舰：修了自接站点退货一直为空的问题——FBA 退货报表是制表符文本，旧版当 JSON 解析，英国站报“Expecting value”、美国站报 utf-8 解不开。
-- 旗舰：修了优麦云推送回读核对的格式问题（操作日志里的操作人是“公司名(MCP)”、调整后金额带“（调整到）”），否则每次真实推送都会被判成“不确定”。
-- 旗舰：领星接口“请勿频繁请求”会自动等一会儿重试。
+- 旗舰：优麦云店铺多了三项只读数据——回款（结算周期是否关闭、转账是否成功、金额）、长期仓储费（按 SKU 的库龄费）、账户健康（账户状态、订单缺陷率、迟发 / 取消 / 追踪、政策合规告警），都在「优麦云 ERP」页的数据浏览里看。
+- 旗舰：优麦云单元的中控卡新增“账户健康 / 回款 / 长期仓储费”三行；有异常（账户告警、转账失败、库龄超 12 个月、长期仓储费）会排在每日简报待办的最前面，正常的不列。
+- 旗舰：自发货（FBM）订单也算进利润——在成本表“参数”页填一行“自发货快递(元/件，国内直发买家)”，自发货订单按采购价 + 这笔快递费（不含头程和 FBA 配送费）计算；不填则仍提示“需维护实际配送成本”。从此利润不再只算 FBA 订单、再扣全部广告费。
+- 旗舰：优麦云“商品成本”端口已预留——库存同步会请求优麦云的“库存成本”，你在优麦云网页维护后，库存表自动多出一列；口径还没核对，所以只显示、不参与利润，利润仍按成本表。
+- 旗舰：对照优麦云官网能力清单更新了“能读什么”：回款、长期仓储费、账户健康已接入；客服邮件、Listing 详情、AMC 等只读能力列为可用但暂未使用。纠正了旧说法：优麦云能查广告位，只是只能逐个活动 / 关键词查，没有整店报表。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-11-01 | R09.5 | 3.0.37 / 3.0.37 | 优麦云推送开放；领星成本 / 访问量 / 退货 / 货件；修自接退货报表 |
 | 2026-11-01 | R09.4 | 3.0.36 / 3.0.36 | 优麦云 / 领星多店铺多站点；店铺中控与产品线一句话结论；勾选汇总 |
 | 2026-11-01 | R09.3.2 | 3.0.35 / 3.0.35 | 优麦云页签重做：能读什么、能调什么一目了然，可浏览本机数据；没统计完的日子写待数据 |
 | 2026-10-31 | R09.3.1 | 3.0.34 / 3.0.34 | 优麦云同步不再因活动列表报错丢数据，订单不再被冲掉，自接与优麦云可并存 |
@@ -88,14 +87,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.37**，插件 **3.0.37+codex-flagship.20261101.3**，内含 **0.2.0-alpha.21** 引擎。
+Codex 旗舰发行 **3.0.38**，插件 **3.0.38+codex-flagship.20261102.1**，内含 **0.2.0-alpha.21** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.37-codex-flagship/Starsky-Codex-Flagship-3.0.37-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.37-codex-flagship/Starsky-Codex-Flagship-3.0.37-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.38-codex-flagship/Starsky-Codex-Flagship-3.0.38-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.38-codex-flagship/Starsky-Codex-Flagship-3.0.38-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.37-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.38-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -126,8 +125,8 @@ Codex 旗舰发行 **3.0.37**，插件 **3.0.37+codex-flagship.20261101.3**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.37/Starsky-Codex-3.0.37-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.37/Starsky-Codex-3.0.37-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.38/Starsky-Codex-3.0.38-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.38/Starsky-Codex-3.0.38-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
