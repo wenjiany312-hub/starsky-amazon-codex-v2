@@ -4,24 +4,21 @@
 
 作者：坚哥｜公众号「跨境者说干货」｜知识星球「星空的跨境圈子」。本仓库提供 Codex 正式版的公开说明、下载入口及加密发行文件。
 
-## 本次更新 · R11.4（2026-11-11）
+## 本次更新 · R11.5（2026-11-11）
 
-运营版 **3.0.47**，旗舰版 **3.0.47**。
+运营版 **3.0.48**，旗舰版 **3.0.48**。
 
-- S1 市场主源「可A可B」：开跑自动探测本机已接通的 Sorftime 或卖家精灵 MCP，任一即可跑完 S1 九步与极速报告；双源同开按步择优（粗筛/专利走 Sorftime，关键词与 ABA 趋势、Coupon 折后真价、Keepa、流量占比、商标走卖家精灵），不重复拉表、不跨源平均。
-- 极速报告（s1_fast）自动路由到可用市场源：仅卖家精灵也能独立出报告；新增 select 命令让用户选定本轮候选货源（不是采购授权），首屏相应显示已选或候选（未选定）。
-- 卖家精灵参数口径入册：product_research 多词必加 matchType 1（词组匹配）；折后成交价读 couponTrends 最新 finalPrice；广告依赖度同时看 traffic_keyword_stat 与 traffic_listing_stat。网页版会员与 MCP 分开独立付费，Sorftime 更经济。
-- 悬浮窗防崩：产品夹读不出进度只换卡片不再闪退，异常写日志；系统临时夹不再被记成「上次产品」，点图标稳定唤出。
-- 未选货源时报告首屏给候选参考图与最多 3 家 1688 候选链接；真实案例复跑达标。
-- 选定货源后自动抓整页：主图、SKU 图、详情图、视频存进标准第 5 步同一个 媒体/offer_<id>/，附资料包清单与逐图识别回执；轻量 CT 按回执核对原图哈希后写入 image_facts，进 S2 前再按标准流程补封存 CT。
-- 极速报告首屏一定有图：候选货源图缺失时先向 1688 补取，再回退卖家精灵主图字段；一张都没有时用对标 ASIN 主图并明确标注「非货源图，仅供外观参考」，缺口清单写明原因。
-- 悬浮窗识别极速案例：按 8 步显示进度，到选定货源停下提示，报告、缺口清单、资料包文件夹可从窗口直接打开。
-- 卖家精灵三处口径修正：商标查询用 text + office["US"]；类目节点自动换成冒号全路径再查月销；关键词搜索量改读趋势末条 search，避免有数据被误判成无数据。
+- S1 极速换方向自动归档：旧方向的回包、成本输入与供应商台账移入「_换向归档」，报告只读当前方向，旧的选定货源一并清空，不再拿旧数据充当新方向证据。
+- 极速毛利改用详情页价格：选定货源后成本测算取已打开详情页的起价；未核对详情价的候选标「起价未核」、不计入毛利；传入采购价与详情价偏差超过 30% 时以详情价为准并给出警告。
+- 极速报告生成「从这里开始.html」：在产品根目录一键打开 HTML 报告、MD 报告、缺口清单、供应商台账与素材文件夹；命令输出直接给出报告绝对路径。
+- 极速各步骤记录开始时间，便于事后定位耗时卡在哪一步。
+- 首屏毛利注明口径：包装按 ¥1/套，不计退货预留与入库仓储；第 06 章计算器计入这两项，所以那里的数字更低。
 
 ## 历史更新
 
 | 日期 | 更新 | 运营版 / 旗舰版 | 要点 |
 | --- | --- | --- | --- |
+| 2026-11-11 | R11.4 | 3.0.47 / 3.0.47 | R11.4：S1 市场主源可A可B自动路由（Sorftime/卖家精灵任一可开跑）；极速报告支持选定货源并抓整页素材、首屏必有图；悬浮窗防崩且认极速案例；候选货源上首屏 |
 | 2026-11-09 | R11.3 | 3.0.46 / 3.0.46 | R11.3：S2 第 5–7 步有现成命令、竞品池登记不再被拒；S1 成本未确认项说明原因；插件文件被改会提醒；导航读不到进度明说 |
 | 2026-11-08 | R11.2 | 3.0.45 / 3.0.45 | R11.2：S1 出卡纪律、知识库分页、缺口不拦与验收分级，外加升级衔接（快照不覆盖、版本回读、防回退） |
 | 2026-11-06 | R11.1 | 3.0.44 / 3.0.44 | R11.1：S1 综合报告改为新版决策报告（七维度、电梯导航、利润计算器），不再生成旧版 M00–M18 报告 |
@@ -97,14 +94,14 @@
 
 ### 下载、申请与安装
 
-Codex 旗舰发行 **3.0.47**，插件 **3.0.47+codex-flagship.20261111.1**，内含 **0.2.0-alpha.34** 引擎。
+Codex 旗舰发行 **3.0.48**，插件 **3.0.48+codex-flagship.20261111.1**，内含 **0.2.0-alpha.34** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.47-codex-flagship/Starsky-Codex-Flagship-3.0.47-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.47-codex-flagship/Starsky-Codex-Flagship-3.0.47-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.48-codex-flagship/Starsky-Codex-Flagship-3.0.48-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.48-codex-flagship/Starsky-Codex-Flagship-3.0.48-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.47-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.48-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -135,8 +132,8 @@ Codex 旗舰发行 **3.0.47**，插件 **3.0.47+codex-flagship.20261111.1**，�
 
 | 平台 | 安装包 | 首次入口 |
 | --- | --- | --- |
-| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.47/Starsky-Codex-3.0.47-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
-| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.47/Starsky-Codex-3.0.47-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
+| Windows | [Windows 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.48/Starsky-Codex-3.0.48-windows.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.bat` |
+| macOS | [Mac 安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.48/Starsky-Codex-3.0.48-macos.zip) | 完整解压，阅读 `00-使用说明.html`，运行 `申请授权.command` |
 
 [全部发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases) · [安装与授权](docs/安装与授权.md) · [使用说明](docs/使用说明.md) · [年度更新与续期](docs/会员更新说明.md) · [更新记录](docs/更新记录.md) · [问题反馈](docs/问题反馈.md)
 
