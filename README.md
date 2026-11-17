@@ -52,14 +52,14 @@
 
 ### 旗舰版 · 星空 AI 智能广告
 
-Codex 旗舰发行 **3.0.51**，插件 **3.0.51+codex-flagship.20261116.1**，内含 **0.2.0-alpha.37** 引擎。
+Codex 旗舰发行 **3.0.52**，插件 **3.0.52+codex-flagship.20261116.2**，内含 **0.2.0-alpha.38** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.51-codex-flagship/Starsky-Codex-Flagship-3.0.51-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.51-codex-flagship/Starsky-Codex-Flagship-3.0.51-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.52-codex-flagship/Starsky-Codex-Flagship-3.0.52-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.52-codex-flagship/Starsky-Codex-Flagship-3.0.52-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.51-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.52-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -100,20 +100,19 @@ Codex 旗舰发行 **3.0.51**，插件 **3.0.51+codex-flagship.20261116.1**，�
 
 正式版只接收本正式版通道的对应档位更新。旧测试版授权不会自动转换成正式版授权；授权绑定申请时的电脑，不支持换机；跨产品或版本档需联系作者分别办理。
 
-## 最新版本 · 旗舰版 3.0.51（2026-11-16）
+## 最新版本 · 旗舰版 3.0.52（2026-11-16）
 
-运营版 **3.0.49**，旗舰版 **3.0.51**。
+运营版 **3.0.49**，旗舰版 **3.0.52**。
 
-- **运营终端新增产品卡**：每个在售产品一张卡，库存、销量、广告、流量转化、市场阶段、仓储费、补货、关键词、页面九个方面各标 ✅ / ❗ / ❓ 并给一句建议；读不到的数据标 ❓，不猜。全站产品卡总览可折叠。
-- **「今天先做」清单**：产品卡顶部把各产品的红色项列在一起；有货却连续 3 天以上没出单、连续 14 天没出单（滞销）、点了不出单的搜索词、星级或购买框偏低都会标红。没同步的日子不当作 0 件。
-- **补货算上在途货件**：已建未到仓的 FBA 货件算进库存，不再对已经发货的产品重复催下单；长期仓储费从优麦云读取。
-- **广告引擎升级到 0.2.0-alpha.37**：已装终端的电脑下次启动时自动换新引擎，不动你的数据和配置。
+- **产品线一览改为折叠显示**：标题只报产品线个数，名单点开才看，整块占满一行；产品线多的店铺不再被长名单撑破版面。
+- **安装包更干净**：不再附带运行时缓存文件，终端启动后按你自己店铺的数据重新生成。
+- **广告引擎升级到 0.2.0-alpha.38**：已装终端的电脑下次启动时自动换新引擎，不动你的数据和配置。
 
 升级：在 Codex 设置里对星空 Marketplace 点「Upgrade」，新开会话说「启动星空」即可。
 
 ## 产品演进
 
-星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.9 – 3.0.49 / 旗舰版 3.0.9 – 3.0.51。逐版明细见 [更新历程](docs/更新历程.md)。
+星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.9 – 3.0.49 / 旗舰版 3.0.9 – 3.0.52。逐版明细见 [更新历程](docs/更新历程.md)。
 
 <details>
 <summary><b>阶段一 · 搭起选品到上架的主链路</b>（2026-10-14 至 10-18）</summary>
@@ -162,6 +161,7 @@ Codex 旗舰发行 **3.0.51**，插件 **3.0.51+codex-flagship.20261116.1**，�
 - 优麦云读数据更省调用：旧日子不重复拉，设每月额度与每天上限。
 - 每日简报推送不再被数据刷新拖慢，飞书发送自动重试。
 - 运营终端新增产品卡与「今天先做」清单：每个在售产品九个方面逐项标 ✅ / ❗ / ❓；补货算上在途 FBA 货件。
+- 产品线一览改为折叠显示：标题只报个数，名单点开才看；安装包不再附带运行时缓存。
 
 </details>
 
