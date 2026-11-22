@@ -54,14 +54,14 @@
 
 ### 旗舰版 · 星空 AI 智能广告
 
-Codex 旗舰发行 **3.0.54**，插件 **3.0.54+codex-flagship.20261120.1**，内含 **0.2.0-alpha.39** 引擎。
+Codex 旗舰发行 **3.0.55**，插件 **3.0.55+codex-flagship.20261122.1**，内含 **0.2.0-alpha.40** 引擎。
 
 | 平台 | 安装包 |
 | --- | --- |
-| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.54-codex-flagship/Starsky-Codex-Flagship-3.0.54-windows.zip) |
-| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.54-codex-flagship/Starsky-Codex-Flagship-3.0.54-macos.zip) |
+| Windows | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.55-codex-flagship/Starsky-Codex-Flagship-3.0.55-windows.zip) |
+| macOS | [旗舰版安装包](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/download/v3.0.55-codex-flagship/Starsky-Codex-Flagship-3.0.55-macos.zip) |
 
-[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.54-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
+[发行与校验文件](https://github.com/wenjiany312-hub/starsky-amazon-codex-v2/releases/tag/v3.0.55-codex-flagship) · [安装与授权](docs/flagship/安装与授权.md) · [会员更新说明](docs/flagship/会员更新说明.md)
 
 完整解压 → 运行「申请授权」 → 私信坚哥发送“Codex 正式版 + 旗舰版 + 系统 + 本机申请码” → 确认购买后取得本机授权 → 运行「安装与更新」 → 新会话输入「启动星空」。不要发送店铺凭据。
 
@@ -102,10 +102,13 @@ Codex 旗舰发行 **3.0.54**，插件 **3.0.54+codex-flagship.20261120.1**，�
 
 正式版只接收本正式版通道的对应档位更新。旧测试版授权不会自动转换成正式版授权；授权绑定申请时的电脑，不支持换机；跨产品或版本档需联系作者分别办理。
 
-## 最新版本 · 旗舰版 3.0.54（2026-11-20）
+## 最新版本 · 旗舰版 3.0.55（2026-11-22）
 
-运营版 **3.0.49**，旗舰版 **3.0.54**。
+运营版 **3.0.49**，旗舰版 **3.0.55**。
 
+- **旗舰运营终端排版与同步提示**：「一键同步 / 刷新数据」按钮统一为同一种样式；同步失败时给出原因和下一步，原始技术报错只留在控制台。
+- **产品经营诊断空态引导**：还没有数据时显示「产品经营诊断正在准备」和接入向导入口；支持 `#diagnosis&line=<产品线>` 直接打开并预选产品线。
+- **广告引擎升至 0.2.0-alpha.40**：已装终端的电脑下次启动时自动换新引擎，不动用户数据和配置。
 - **产品经营诊断按「店铺 → 站点 → 产品线 → 变体」选择**：多店审核台只保留店铺、站点筛选，站点现存问题和调整候选在那里看；单链接诊断移到产品经营诊断页。选 1 个变体看单链接诊断，选 2 个以上看产品线组合诊断（销售、花费、广告占比合计，缺数的变体单独计数，不当作 0）。
 - **广告活动可归到产品线**：你确认后，活动归到某个产品线，只对对应站点生效。审核项和诊断产品按同一规则归线：有 SKU 按 SKU 所在线，否则按系列，都没有则记为未归类。
 - **发布包 S7 档案改为演示样例**：`shipping_profiles.yaml` 中的公司、供应商、SKU、ASIN 均为示例编码，请换成你自己的档案。
@@ -115,7 +118,7 @@ Codex 旗舰发行 **3.0.54**，插件 **3.0.54+codex-flagship.20261120.1**，�
 
 ## 产品演进
 
-星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.9 – 3.0.49 / 旗舰版 3.0.9 – 3.0.54。逐版明细见 [更新历程](docs/更新历程.md)。
+星空亚马逊 Agent 从 2026-10 起按阶段迭代，越往后越好用。以下按阶段归纳，展开查看；运营版 3.0.9 – 3.0.49 / 旗舰版 3.0.9 – 3.0.55。逐版明细见 [更新历程](docs/更新历程.md)。
 
 <details>
 <summary><b>阶段一 · 搭起选品到上架的主链路</b>（2026-10-14 至 10-18）</summary>
